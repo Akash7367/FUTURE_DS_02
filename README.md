@@ -10,10 +10,29 @@ This project provides a full end-to-end Machine Learning pipeline to predict cus
 - `requirements.txt`: Project dependencies.
 
 ## Dashboard Screenshots
+### 1. 🌟 **Dashboard Overview & Key Metrics**
+> **_A clean, Glassmorphism-themed dark mode interface showing total customers, churn rates, and average revenue metrics._**
+
 ![Dashboard View 1](images/Screenshot%202026-04-03%20153048.png)
+
+### 2. 📊 **Interactive Data Visualizations**
+> **_Interactive Plotly charts detailing Churn Distributions and Customer Tenure, allowing for detailed hover insights._**
+
 ![Dashboard View 2](images/Screenshot%202026-04-03%20153116.png)
+
+### 3. 🔍 **Feature Impact Analysis & Raw Data**
+> **_Exploration of how Monthly Charges influence churn probability, alongside a view of the preprocessed raw dataset._**
+
 ![Dashboard View 3](images/Screenshot%202026-04-03%20153138.png)
+
+### 4. 🔮 **Live Prediction Client Form**
+> **_A comprehensive input form allowing users to simulate different customer profiles including demographics, services, and billing._**
+
 ![Dashboard View 4](images/Screenshot%202026-04-03%20153155.png)
+
+### 5. 🎯 **Instant AI Churn Risk Gauge**
+> **_Real-time AI probability calculation converted into an interactive Gauge chart, cleanly indicating whether the customer is High or Low risk._**
+
 ![Dashboard View 5](images/Screenshot%202026-04-03%20153430.png)
 
 ## Key Findings & Model Evaluation
