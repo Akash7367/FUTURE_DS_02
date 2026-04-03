@@ -9,6 +9,13 @@ This project provides a full end-to-end Machine Learning pipeline to predict cus
 - `dashboard/`: A Streamlit web application for interactive data visualization and live churn prediction.
 - `requirements.txt`: Project dependencies.
 
+## Dashboard Screenshots
+![Dashboard View 1](images/Screenshot%202026-04-03%20153048.png)
+![Dashboard View 2](images/Screenshot%202026-04-03%20153116.png)
+![Dashboard View 3](images/Screenshot%202026-04-03%20153138.png)
+![Dashboard View 4](images/Screenshot%202026-04-03%20153155.png)
+![Dashboard View 5](images/Screenshot%202026-04-03%20153430.png)
+
 ## Key Findings & Model Evaluation
 The dataset was cleaned and encoded, and a **Random Forest Classifier** was trained on the processed data.
 - **Model Accuracy**: ~80%
