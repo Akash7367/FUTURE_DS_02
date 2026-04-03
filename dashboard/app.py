@@ -73,7 +73,12 @@ DATA_PATH = os.path.join(BASE_DIR, 'data', 'WA_Fn-UseC_-Telco-Customer-Churn.csv
 
 @st.cache_data
 def load_raw_data():
-    return pd.read_csv(DATA_PATH)
+    try:
+        return pd.read_csv(DATA_PATH)
+    except FileNotFoundError:
+        # Fallback for cloud deployment since data/ is gitignored
+        url = "https://raw.githubusercontent.com/treselle-systems/customer_churn_analysis/master/WA_Fn-UseC_-Telco-Customer-Churn.csv"
+        return pd.read_csv(url)
 
 @st.cache_resource
 def load_artifacts():
